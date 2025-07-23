@@ -3,24 +3,24 @@
 The backend of ExamEdge, an AI-powered study assistant that processes PDF-based study material to generate summaries, quizzes, and helpful resources for students.
 
 🚀 Features 
-📄 PDF Text Extraction
+1. PDF Text Extraction
 *  Uses PyMuPDF (fitz) to extract structured text from uploaded PDFs.
 *  Falls back to OCR using pytesseract if the PDF contains scanned images.
 
-🧠 AI Summarization via Gemini
+2. AI Summarization via Gemini
 * Integrates with Google Gemini Pro to summarize extracted content into digestible, student-friendly notes.
 * Extracts key points and insights for focused revision.
 
-❓ MCQ Generation
+3. MCQ Generation
 * Dynamically generates multiple-choice questions based on PDF content using Gemini Capabilites.
 
-🎥📚 Supplementary Resource Suggestions
+4. Supplementary Resource Suggestions
 * Recommends relevant videos (e.g., YouTube) and books aligned with the uploaded content.
 
-💬 Interactive AI Chat
+5. Interactive AI Chat
 * Supports natural language queries via Gemini for deeper understanding or clarification.
 
-👩‍🏫 Expert Connect Integration
+6. Expert Connect Integration
 * Backend endpoint for scheduling sessions with subject matter experts.
 
 
